@@ -1,0 +1,11 @@
+{
+  "name": "akhan-bday",
+  "version": "1.0.0",
+  "description": "displays your Akhan Name according to the gender and birthday date you input",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.log \"hello world\""
+  },
+  "author": "Reilly",
+  "license": "MIT"
+}
