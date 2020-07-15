@@ -1,0 +1,124 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+body .hero {
+  height: 100vh;
+  background: url(../images/Hero-Section.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .hero .description {
+  position: absolute;
+  padding-left: 62%;
+  padding-right: 7%;
+  padding-top: 10vh;
+}
+
+body .hero .description .identity h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 3.3rem;
+  margin: 2px 0;
+  font-weight: 600;
+}
+
+body .hero .description .identity h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+body .hero .description .explanation {
+  padding-top: 5vh;
+}
+
+body .hero .description .explanation h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+body .hero .description .explanation p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body .action-area {
+  padding: 5vh 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+}
+
+body .action-area .form form {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+          box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: solid;
+  border-color: #000;
+  border-width: .5px;
+  padding: 10px 30px 30px 30px;
+}
+
+body .action-area .form form h3 {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+body .action-area .form form input[type=date] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  font-family: sans-serif;
+  background: #f1f1f1;
+  border: solid;
+  border-width: .5px;
+  padding: 5px 7px;
+}
+
+body .action-area .form form label {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+body .action-area .button {
+  padding-top: 15vh;
+}
+
+body .action-area .button button {
+  background-image: -webkit-gradient(linear, right top, left bottom, from(#3D2564), color-stop(#641d4be0), color-stop(#851637d3), color-stop(#a80f21b4), to(#d40505ea));
+  background-image: linear-gradient(to bottom left, #3D2564, #641d4be0, #851637d3, #a80f21b4, #d40505ea);
+  padding: 15px 27px;
+  border-width: .5px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.3rem;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

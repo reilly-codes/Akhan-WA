@@ -6,25 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akhan Names</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="hero">
-        <div class="identity">
-            <h1>AKHAN</h1>
-            <h1>NAMES</h1>
-            <h6>A WEBAPP THAT CALCULATES YOUR AKHAN NAME BASED ON YOUR GENDER AND BIRTHDAY.</h6>
-        </div>
-        <div class="explanation">
-            <h6>AKHAN NAME</h6>
-            <P>A naming system in Ghana where your given a name based on the day of the week your were born.</P>
+        <div class="description">
+            <div class="identity">
+                <h1>AKHAN</h1>
+                <h1>NAMES</h1>
+                <h6>A WEBAPP THAT CALCULATES YOUR AKHAN NAME BASED ON YOUR GENDER AND BIRTHDAY.</h6>
+            </div>
+            <div class="explanation">
+                <h6>AKHAN NAME</h6>
+                <P>A naming system in Ghana where your given a name based on the day of the week your were born.</P>
+            </div>
         </div>
     </div>
 
     <div class="action-area">
         <div class="form">
             <form method="post">
-                <input type="text" name="date" class="dob" id="dateOfBirth" placeholder="DD/MM/YYYY">
+                <h3>Birthday</h3>
+                <input type="date" name="date" class="dob" id="dateOfBirth" placeholder="DD/MM/YYYY" min="1960-01-01" max="2020-12-31">
+                <br>
+                <h3>Gender</h3>
                 <input type="radio" id="male" name="gender" value="male" class="radio-male">
                 <label for="male">Male</label><br>
                 <input type="radio" id="female" name="gender" value="female" class="radio-female">
@@ -32,7 +38,8 @@
             </form>
         </div>
         <div class="button">
-            <button class="submit-btn" id="submitDetails" onclick="submit()"></button>
+            <!--this button for generating the name-->
+            <button class="submit-btn" id="submitDetails" onclick="submit()">Answer</button>
         </div>
     </div>
 
