@@ -26,9 +26,10 @@
 
     <div class="action-area">
         <div class="form">
-            <form method="post">
+            <form>
                 <h3>Birthday</h3>
-                <input type="date" name="date" class="dob" id="dateOfBirth" placeholder="DD/MM/YYYY" min="1960-01-01" max="2020-12-31">
+                <!-- min="1960-01-01" max="2020-12-31"-->
+                <input type="date" name="date" class="dob" id="dateOfBirth" placeholder="DD/MM/YYYY" required>
                 <br>
                 <h3>Gender</h3>
                 <input type="radio" id="male" name="gender" value="male" class="radio-male">
@@ -40,6 +41,7 @@
         <div class="button">
             <!--this button for generating the name-->
             <button class="submit-btn" id="submitDetails" onclick="submit()">Answer</button>
+            <p class="answer" id="answer"></p>
         </div>
     </div>
 

@@ -92,12 +92,30 @@ body .action-area .form form input[type=date] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
-  text-align: center;
-  font-family: sans-serif;
   background: #f1f1f1;
   border: solid;
   border-width: .5px;
   padding: 5px 7px;
+}
+
+body .action-area .form form input[type=date] ::-webkit-input-placeholder {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body .action-area .form form input[type=date] :-ms-input-placeholder {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body .action-area .form form input[type=date] ::-ms-input-placeholder {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+body .action-area .form form input[type=date] ::placeholder {
+  text-align: center;
+  font-family: sans-serif;
 }
 
 body .action-area .form form label {
@@ -108,6 +126,7 @@ body .action-area .form form label {
 
 body .action-area .button {
   padding-top: 15vh;
+  text-align: center;
 }
 
 body .action-area .button button {
@@ -120,5 +139,13 @@ body .action-area .button button {
           box-sizing: border-box;
   font-size: 1.3rem;
   color: #fff;
+}
+
+body .action-area .button p {
+  color: linear-gradient(to bottom left, #3D2564, #641d4be0, #851637d3, #a80f21b4, #d40505ea);
+  padding: 10px 0 0 0 0;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 /*# sourceMappingURL=style.css.map */
