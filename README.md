@@ -6,3 +6,5 @@ Its a system where children's first names were given according to the day of the
 html
 css
 javascript(vanilla)
+## github pages
+https://reilly-codefreak.github.io/Akhan-WA/
