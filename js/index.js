@@ -1,5 +1,3 @@
-//variables
-
 //names to be allocated
 //males
 var male = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
@@ -7,11 +5,6 @@ var male = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];
 var female = ['Akosua', 'Adowa', 'Abenaa', 'Akua', 'Yaa', 'Afua', 'Ama'];
 
 //arithmetic
-var dd = '';
-var mm = '';
-var cc = '';
-var yy = '';
-var gender = '';
 var date = document.getElementById('dateOfBirth');
 
 //submit function
@@ -27,7 +20,6 @@ function submit() {
     toString(siku);
     var dd = siku;
     dd = parseInt(dd);
-    console.log(dd);
     //siku is day in swahili
 
     //var for month
@@ -37,7 +29,6 @@ function submit() {
     toString(mwezi);
     var mm = mwezi;
     mm = parseInt(mm);
-    console.log(mm);
     //mwezi is month in swahili
 
     //var for century
@@ -47,7 +38,6 @@ function submit() {
     toString(karne);
     var cc = karne;
     cc = parseInt(cc);
-    console.log(cc);
     //karne is century in swahili
 
     //var for year
@@ -57,7 +47,6 @@ function submit() {
     toString(mwaka);
     var yy = mwaka;
     yy = parseInt(yy);
-    console.log(yy);
     //mwaka is year in swahili
 
     //computation
@@ -74,7 +63,7 @@ function submit() {
     } else if (document.getElementById('female').checked) {
         name = female[dayOfTheWeek - 1];
     } else {
-        alert('Select Gender');
+        alert('Choose Gender');
         return;
     }
     document.getElementById('answer').innerText = name;
