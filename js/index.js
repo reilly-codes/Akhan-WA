@@ -16,6 +16,9 @@ var date = document.getElementById('dateOfBirth');
 
 //submit function
 function submit() {
+    if (date.value.length == 0) {
+        alert("Enter date");
+    }
     var fetch = date.value;
     toString(fetch);
     var strBreak = fetch.split('');
