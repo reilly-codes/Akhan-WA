@@ -62,9 +62,9 @@ function submit() {
     //console.log(gender);
     var name = '';
     if (document.getElementById('male').checked) {
-        name = male[dayOfTheWeek - 1];
+        name = male[dayOfTheWeek];
     } else if (document.getElementById('female').checked) {
-        name = female[dayOfTheWeek - 1];
+        name = female[dayOfTheWeek];
     } else {
         alert('Choose Gender');
         return;
