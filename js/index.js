@@ -9,6 +9,9 @@ var date = document.getElementById('dateOfBirth');
 
 //submit function
 function submit() {
+    if (date.value.length == 0) {
+        alert("Enter date");
+    }
     var fetch = date.value;
     toString(fetch);
     var strBreak = fetch.split('');
@@ -50,7 +53,7 @@ function submit() {
     //mwaka is year in swahili
 
     //computation
-    var dayOfTheWeek = Math.round((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7);
+    var dayOfTheWeek = Math.trunc((((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7);
     console.log(dayOfTheWeek);
 
     //gender
