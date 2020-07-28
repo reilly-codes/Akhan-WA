@@ -8,7 +8,7 @@ html
 css
 javascript(vanilla)
 ## github pages
-https://reilly-codefreak.github.io/Akhan-WA/
+https://reilly-codes.github.io/Akhan-WA/
 #### lincense
 Re-usable for all purposes :)
 # Environment
